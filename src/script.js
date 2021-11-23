@@ -13,9 +13,6 @@ const chooseOption = (opt1 , opt2) =>{
         return randNum;
 }
 
-// let tomato = chooseOption(`opt1`, `opt2`);
-// console.log(tomato)
-
 const attackPlayer = (health) => {
     health = health - randomDamage();
     return health;
